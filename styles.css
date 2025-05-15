@@ -1,0 +1,400 @@
+*{
+    margin: 0;
+    font-family: sans-serif, Arial, Helvetica;
+    box-sizing: border-box;
+}
+
+body{
+    background: #2b2929;
+}
+.logo {
+    margin-top: 0;
+    border-radius: 4px;
+
+}
+h1  {
+    text-align: center;
+    color: #fff;
+    font-size: 40px;;
+}
+h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    height:600px ;
+    justify-content: space-between;
+    align-items: center;
+    background: url('img/backround-coffee.jpg');
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+}
+#header-about{
+    text-align: center;
+    width: 100%;
+    height: 100vh ;
+    justify-content: space-between;
+    align-items: center;
+    background: url('img/about-image.jpg');
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+
+}
+.contact-form{
+    text-align: center;
+    width: 100%;
+    height:500px ;
+    justify-content: space-between;
+    align-items: center;
+    background: url('img/contact.jpg');
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+}
+.link-name{
+    color: white;
+    font-weight: 800;
+
+}
+.contact-form fieldset form  {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    color: black;
+}
+.contact-form fieldset {
+   
+    background-color: rgba(250, 235, 215, 0.322);
+    width: 500px;
+    height: 100% ;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    border: none;
+    color: black;
+  
+}
+textarea {
+    color: #040303;
+    background-color: #eaeaea4d;
+}
+button{
+    background-color: #228458;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 4px;
+    border: 2px solid rgba(0, 0, 0, 0.335);
+}
+button:hover {
+    color: white;
+    background-color: #2dc782;
+
+}
+.contact-form fieldset input {
+    text-align: left;
+    align-items: left;
+    border-radius: 4px;
+    border: none;
+    color: black;
+    padding: 6px;
+    background-color: #ffffffc7;
+    margin-top: 6px;
+    
+}
+.contact-form fieldset legend {
+    font-weight: 700;
+    color: white;
+}
+.contact-form fieldset form {
+    height: 400px;
+}
+#products-header{
+    text-align: center;
+    width: 100%;
+    height: 50vh ;
+    justify-content: space-between;
+    align-items: center;
+    background: url('img/products-image.jpg');
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+}
+#paragraph{
+    margin: auto;
+    margin-top: 40px;
+    width: 600px;
+     background-color: #ffffff84;
+     border-radius: 4px;
+     color: #070505;
+     line-height: 1.4;
+     padding: 10px;
+}
+.navbar-links{
+    display: flex;
+  justify-content: space-between;
+ 
+}
+#main-sect {
+    margin-top: 30px;
+    margin-left: 30px;
+    flex-basis: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-bottom: 40px;
+
+}
+#main-sect .product-panel .product {
+    padding:  10px;
+}
+.product h5 {
+    text-align: center;
+    color: white;
+    margin-bottom: 3%;
+}
+
+h4 {
+    text-align: center;
+    color: White;
+    font-size: 47px;
+    width: 100%;
+}
+hr{
+    height: 40px;
+    background-color: #3d4b4459;
+    border: none;
+}
+#main-sect .product-panel .product img{
+    width: 200px;
+    height: 220px;
+    text-align: center;
+    justify-content: space-evenly;
+    column-gap: 4px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#main-sect .product-panel .product{
+    background-color: rgba(255, 255, 255, 0.301);
+    border-radius: 9px;
+    height: max-content;
+}
+.product , span {
+    display: block;
+    color: #abcbbc;
+}
+aside{
+    cursor: pointer;
+
+}
+aside:hover {
+    color: black;
+
+}
+.navbar-links ul li {
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-right: 30px;
+    cursor: pointer;
+    padding: 10px 4px 5px;
+    border-radius: 4px;
+}
+.navbar-links ul li:hover {
+    color: #fff;
+    background-color: #040303;
+}
+.navbar-links ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 5px;
+}
+.section-mid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+h2 {
+    flex-basis: 35px;
+    margin-top: 20%;
+    margin-left: 60px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+h2 > a{
+    text-decoration: none;
+    color: #228458;
+    border: 1px solid darkgreen;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+ h2 a:hover {
+    background-color: #228458;
+    color: #040303;
+ }
+.main-section, .section-mid, img{
+    flex-basis: 70%;
+    border-radius: 5px;
+    justify-content: space-between;
+   
+}
+.main-image {
+    width: 450px;
+    height: 500px;
+    border-radius: 4px;
+    margin-right: 45px;
+}
+#main-sect .product-panel .product:hover {
+    background-color: rgba(255, 255, 255, 0.332);
+    
+}
+.card-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10%;
+    margin-left: 5px;
+    margin-bottom: 40px;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.card-section .card img{
+    width: 250px;
+    height: 300px;
+    display: flex;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1.3s;
+   
+}
+.card-section .card:hover img{
+    transform: scale(1.1);
+}
+ .card , a  img  {
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    
+}
+.card > a, img , p {
+    margin-bottom: 30px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+.footer-image{
+    width: 100%;
+    height: 100vh ;
+    background: url('img/coffee-steam.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.footer a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.column-footer col a:hover {
+    color: gold;
+}
+.copyright {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: azure;
+    margin-bottom: 10px;
+}
+.footer .column-footer{
+    text-align: left;
+    line-height: 2;
+
+}
+
+/* ---------Mobile CSS-------*/
+
+@media only screen and (max-width: 600px){
+     .logo {
+        width: 100px;
+        height: 100px;
+      }
+      nav {
+         width: 100%;
+        background-color: black;
+        display: flex;
+        flex-wrap: nowrap;
+        line-height: 0.5;
+        padding: 8px;
+      }
+      h1 {
+        margin-top: 140px;
+        width: 100%;
+        color: black;
+        background-color: white;
+      }
+        h2 {
+        text-align: center;
+        align-items: center;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        font-size: 20px;
+      }
+        .main-image{
+        width: 300px;
+        height: 300px;
+        text-align: center;
+        margin: auto;
+     }
+
+     .footer, h2 {
+        font-size: 13px;
+
+     }
+     .main-sect, .product-panel{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        margin: auto;
+        justify-content: center;
+        margin-left: 32px;
+     }
+     .contact-form fieldset {
+        width: 300px;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+        margin-top: 130px;
+     }
+     #paragraph {
+        width: 100%;
+        padding: 10px 5px 6px 8px;
+     }
+}
+
