@@ -237,7 +237,7 @@ aside:hover {
     margin-top: 70px;
 }
 h2 {
-    flex-basis: 35px;
+   
     margin-top: 20%;
     margin-left: 60px;
     text-align: center;
@@ -263,9 +263,11 @@ h2 > a{
     border: 2px solid black;
  }
 .main-section, .section-mid, img{
-    flex-basis: 70%;
+    display: flex;
     border-radius: 5px;
+    display: flex;
     justify-content: space-between;
+    margin-right: 30%;
    
 }
 .main-image {
