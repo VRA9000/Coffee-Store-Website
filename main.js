@@ -28,7 +28,7 @@ const calculateArea = (width, height) => {
 }
 console.log(calculateArea(5, 3)); */
 
-let age =  16;
+/* let age =  16;
 
   if (age >= 18) {
     console.log("You are an adult.");
@@ -38,4 +38,4 @@ let age =  16;
     console.log("You must be above 18 years old.");
   } else {
     console.log("Invalid.");
-  }
+  } */

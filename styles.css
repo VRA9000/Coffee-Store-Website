@@ -251,11 +251,16 @@ h2 > a{
     border: 1px solid darkgreen;
     border-radius: 4px;
     cursor: pointer;
+    background-color:#2dc782;
+    color:white;
+    padding: 0 2rem;
+    border-radius: 4px;
     
 }
  h2 a:hover {
     background-color: #228458;
     color: #040303;
+    border: 2px solid black;
  }
 .main-section, .section-mid, img{
     flex-basis: 70%;
